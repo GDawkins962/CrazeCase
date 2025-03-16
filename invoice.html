@@ -1,0 +1,60 @@
+<!--Gabrielle Dawkins (ID#: 2405551)--> 
+<!--Web Programming Tues. 11am (UE1)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="invoice-container">
+        <div class="top-menu">
+            <div class="left-menu">
+                <a href="product page.html" class="menu-link">Back to Products</a>
+            </div>
+            <img src="..//Images/CraseCraze Logo.png" alt="CaseCraze Logo" class="logo">
+            <div class="right-menu">
+                <a href="about us.html" class="menu-link">About Us</a>
+                <a href="login form.html" class="menu-link">Exit</a>
+            </div>
+        </div>
+
+        <!-- Invoice Title -->
+        <div class="invoice-title">
+            <h1>Invoice</h1>
+        </div>
+
+        <!-- Invoice Table -->
+        <table class="invoice-table">
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Qty</th>
+                    <th>Unit Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="invoice-items">
+                <!-- Items from Cart will be inserted here -->
+            </tbody>
+        </table>
+
+        <!-- Totals -->
+        <div class="totals">
+            <div><strong>Subtotal:</strong> $<span id="subtotal">0.00</span></div>
+            <div><strong>Tax (5%):</strong> $<span id="tax">0.00</span></div>
+            <div><strong>Total:</strong> $<span id="total">0.00</span></div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>@2025 | Phone: (123) 456-7890 | Email: support@casecraze.com</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

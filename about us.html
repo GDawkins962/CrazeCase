@@ -1,0 +1,50 @@
+<!--Gabrielle Dawkins (ID#: 2405551)--> 
+<!--Web Programming Tues. 11am (UE1)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="about-us-container">
+        <header class="header">
+            <div class="logo-buttons-container">
+                <img src="..//Images/CraseCraze Logo.png" alt="CaseCraze Logo" class="logo">
+                <div class="button-container">
+                    <button onclick="goToProducts()">Back to Products</button>
+                    <button onclick="loginform()">Exit</button>
+                </div>
+            </div>
+            <h1 class="about-heading">About Us</h1>
+        </header>
+
+        <section class="about-content">
+            <h2>Creator Information</h2>
+            <p><strong>Creator Name:</strong> Gabrielle Dawkins</p>
+            <p><strong>Student ID:</strong> 2405551</p>
+            <p><strong>Email:</strong> <a href="mailto:gabrielleadawkins@students.utech.edu.jm">gabrielleadawkins@students.utech.edu.jm</a></p>
+            <p><strong>Module Code:</strong> CIT2011</p>
+            <p><strong>Assignment:</strong> Individual Assessment 2 (Customized Phone Cases Website)</p>
+            <p><strong>Class:</strong> Web Programming Tuesday 11am (UE1)</p>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 CaseCraze. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function goToProducts() {
+            window.location.href = 'product page.html'; // Update with actual products page filename
+        }
+
+        function exitPage() {
+            window.close(); // Closes the current tab
+        }
+    </script>
+</body>
+</html>
